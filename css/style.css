@@ -43,6 +43,43 @@ div{
   padding: 2px;
 }
 
+@media (min-width: 772px) {
+  /* Divs take up 45% of viewport width */
+  div {
+    width: 45vw;          /* 45% of viewport width */
+    display: inline-block; /* ensures they can sit side by side */
+    box-sizing: border-box; /* keeps padding/border inside width */
+    margin: 2%;           /* spacing between divs */
+    vertical-align: top;  /* aligns divs neatly */
+  }
+
+  /* Images limited to 30% of viewport height */
+  img {
+    max-height: 30vh;     /* 30% of viewport height */
+    width: auto;          /* maintain aspect ratio */
+    display: block;       /* avoids inline spacing issues */
+    margin: 0 auto;       /* centers image inside div */
+  }
+}
+
+@media (min-width: 998px) {
+  /* Divs take up 45% of viewport width */
+  div {
+    width: 30vw;          /* 45% of viewport width */
+    display: inline-block; /* ensures they can sit side by side */
+    box-sizing: border-box; /* keeps padding/border inside width */
+    margin: 2%;           /* spacing between divs */
+    vertical-align: top;  /* aligns divs neatly */
+  }
+
+  /* Images limited to 30% of viewport height */
+  img {
+    max-height: 30vh;     /* 30% of viewport height */
+    width: auto;          /* maintain aspect ratio */
+    display: block;       /* avoids inline spacing issues */
+    margin: 0 auto;       /* centers image inside div */
+  }
+}
 
 
 
