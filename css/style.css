@@ -43,7 +43,7 @@ div{
   padding: 2px;
 }
 
-@media (min-width: 772px) {
+@media (max-width: 772px) {
   /* Divs take up 45% of viewport width */
   div {
     width: 45vw;          /* 45% of viewport width */
@@ -62,7 +62,7 @@ div{
   }
 }
 
-@media (min-width: 998px) {
+@media (max-width: 998px) {
   /* Divs take up 45% of viewport width */
   div {
     width: 30vw;          /* 45% of viewport width */
